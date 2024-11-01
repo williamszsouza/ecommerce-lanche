@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200;
+    background-image: url("../imgs/foto-burguer2.jpg");
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.fundo-header {
+    opacity: 50%;
+}
+
+.text-header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.title-header>img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 20px rgb(112, 105, 105);
+    transition: ease-in-out 0.3s;
+}
+
+.title-header img:hover {
+    transform: scale(1.05);
+}
+
+.buttons-header {
+    display: flex;
+    gap: 20px;
+
+}
+
+.login-button>button {
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 5px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width: 50px;
+    background-color: #323841;
+    color: #f6f2ee;
+    transition: ease-in-out 0.3s;
+}
+
+.cadastro-button>button {
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 5px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #323841;
+    color: #f6f2ee;
+    transition: ease-in-out 0.3s;
+    outline: none;
+}
+
+.cadastro-button>button:hover,
+.login-button>button:hover {
+    background-color: #505968;
+}
+
+.cadastro-button>button:active,
+.login-button>button:active {
+    transform: scale(1.1);
+
+}
+
+
+.title-header>h2 {
+    color: white;
+}
+nav>li,ul,a{
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+main>h3{
+    margin: 50px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+.link-paginas{
+    transition: ease-in-out 0.4s;
+}
+
+
+.link-paginas:hover{
+    box-shadow: 1px 1px 10px#667385;
+    transform:scale(1.1);
+    border-radius: 20px;
+}
+
+.produto>img{
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 400px;
+    border-radius: 10%;
+    float: left;
+}
+
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins",sans-serif;
+}
+
+.produtos>div{
+    flex: 1 1 700px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.produto{
+    box-shadow: 1px 1px 10px rgb(75, 73, 73);
+    margin: 10px;
+    background-color: #ffffff;
+    width: 110%;
+    height: 110%;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+span>button{
+    box-shadow: 1px 1px 10px rgb(78, 75, 75);
+    border-radius: 10px;
+    padding: 4px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    width: 100px;
+    background-color: #ff0000;
+    color: #f6f2ee;
+    transition: ease-in-out 0.3s;
+}
+
+.produto>span{
+    margin:10px 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button>img{
+    height: 20px;
+    width: 20px;
+}
+button:active{
+    transform: scale(1.05);
+    background-color: #be0f0f;
+    outline: none;
+
+}
