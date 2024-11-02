@@ -33,12 +33,7 @@ header {
     text-align: center;
     justify-content: center;
     padding: 10px;
-    
 
-}
-
-.title-header{
-    margin-bottom: 10px;
 }
 
 .title-header>img {
@@ -61,8 +56,6 @@ header {
 }
 
 .login-button>button {
-    display: flex;
-    justify-content: space-around;
     border-radius: 10px;
     padding: 4px;
     margin-top: 5px;
@@ -70,17 +63,13 @@ header {
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    width: 70px;
-    background-color: transparent;
+    width: 50px;
+    background-color: #323841;
     color: #f6f2ee;
     transition: ease-in-out 0.3s;
-    text-transform: capitalize;
 }
 
 .cadastro-button>button {
-    display: flex;
-    justify-content: space-around;
-    gap: 4px;
     border-radius: 10px;
     padding: 4px;
     margin-top: 5px;
@@ -88,7 +77,7 @@ header {
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    background-color: transparent;
+    background-color: #323841;
     color: #f6f2ee;
     transition: ease-in-out 0.3s;
     outline: none;
@@ -96,12 +85,10 @@ header {
 
 .cadastro-button>button:hover,
 .login-button>button:hover {
-    transform: scale(1.05);
-    box-shadow: 1px 1px 10px black;
-    background-color: #494242;
+    background-color: #505968;
 }
 
-.cadastro-button>button:active, 
+.cadastro-button>button:active,
 .login-button>button:active {
     transform: scale(1.1);
 
@@ -129,12 +116,11 @@ nav>li,ul,a{
 main>h3{
     margin: 50px;
     text-align: center;
-    font-family: "Inter",sans-serif;
+    font-family: "Poppins",sans-serif;
 }
 
 main{
     background-color: #ffffff;
-    text-transform: capitalize;
 }
 
 .link-paginas{
@@ -212,89 +198,7 @@ button>img{
 }
 button:active{
     transform: scale(1.05);
-  
-    outline: none;
-
-}
-
-
-
-
-
-
-
-.produtos-pizzas>img,.bebida-produto>img{
-    height: 200px;
-    object-fit: cover;
-    max-width: 100%;
-    width: 400px;
-    border-radius: 10%;
-    float: left;
-}
-
-
-.Pizzas-container,.bebidas{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Poppins",sans-serif;
-}
-
-
-.Pizzas-container>div,.bebidas>div{
-    flex: 1 1 700px;
-    justify-content: center;
-    text-align: center;
-
-}
-
-
-.produtos-pizzas,.bebida-produto{
-    box-shadow: 1px 1px 10px rgb(75, 73, 73);
-    margin: 10px;
-    background-color: #ffffff;
-    width: 110%;
-    height: 110%;
-    padding: 20px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    
-}
-
-.produtos-pizzas>span,.bebida-produto>span{
-    margin:10px 10px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.produtos-pizzas>button>img,.bebida-produto>button>img{
-    height: 20px;
-    width: 20px;
-}
-
-
-.produtos-pizzas>button:active,.bebidas>button:active{
-    transform: scale(1.05);
     background-color: #be0f0f;
     outline: none;
 
 }
-
-/* 
-
-.bebidas>img{
-    height: 200px;
-    object-fit: cover;
-    max-width: 100%;
-    width: 400px;
-    border-radius: 10%;
-    float: left;
-}
-
-.bebida-produto{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Poppins",sans-serif;
-}
- */
