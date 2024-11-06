@@ -14,7 +14,7 @@ html {
 
 header {
     height: 200;
-    background-image: url("/imgs/fundo.jpg");
+    background-image: url(/imgs/fundo.jpg);
     background-size: cover;
     font-family: "Inter", sans-serif;
 }
