@@ -56,21 +56,18 @@ header {
 
 .buttons-header {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 
 }
 
 .login-button>button {
     display: flex;
-    justify-content: space-around;
     border-radius: 10px;
-    padding: 4px;
     margin-top: 5px;
     border: 0;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    width: 70px;
     background-color: transparent;
     color: #f6f2ee;
     transition: ease-in-out 0.3s;
@@ -82,7 +79,6 @@ header {
     justify-content: space-around;
     gap: 4px;
     border-radius: 10px;
-    padding: 4px;
     margin-top: 5px;
     border: 0;
     cursor: pointer;
@@ -94,11 +90,24 @@ header {
     outline: none;
 }
 
+.login-button>button>a{
+    color: white;
+    display: flex;
+    text-wrap: nowrap;
+}
+
+
+.cadastro-button>button>a{
+    color: white;
+    display: flex;
+}
+
+
 .cadastro-button>button:hover,
 .login-button>button:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 10px black;
-    background-color: #494242;
+    background-color: #d23d3d;
 }
 
 .cadastro-button>button:active, 
