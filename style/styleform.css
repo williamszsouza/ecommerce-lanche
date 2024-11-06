@@ -53,7 +53,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    color: white;
+    color:white;
     border-radius: 20px;
     padding: 10px;
     text-align: right;
@@ -131,6 +131,7 @@ button{
     transition: ease-in-out 0s;
     font-weight: 700;
     background-color:white;
+    color: black;
 
 
 }
