@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -14,7 +14,7 @@ html{
 
 header {
     height: 200;
-    background-image: url("../imgs/foto-burguer2.jpg");
+    background-image: url("/imgs/fundo.jpg");
     background-size: cover;
     font-family: "Inter", sans-serif;
 }
@@ -33,11 +33,11 @@ header {
     text-align: center;
     justify-content: center;
     padding: 10px;
-    
+
 
 }
 
-.title-header{
+.title-header {
     margin-bottom: 10px;
 }
 
@@ -90,14 +90,14 @@ header {
     outline: none;
 }
 
-.login-button>button>a{
+.login-button>button>a {
     color: white;
     display: flex;
     text-wrap: nowrap;
 }
 
 
-.cadastro-button>button>a{
+.cadastro-button>button>a {
     color: white;
     display: flex;
 }
@@ -110,7 +110,7 @@ header {
     background-color: #d23d3d;
 }
 
-.cadastro-button>button:active, 
+.cadastro-button>button:active,
 .login-button>button:active {
     transform: scale(1.1);
 
@@ -120,9 +120,12 @@ header {
 .title-header>h2 {
     color: white;
 }
-nav>li,ul,a{
+
+nav>li,
+ul,
+a {
     list-style: none;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -135,29 +138,29 @@ nav>li,ul,a{
     color: black;
 }
 
-main>h3{
+main>h3 {
     margin: 50px;
     text-align: center;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
-main{
+main {
     background-color: #ffffff;
     text-transform: capitalize;
 }
 
-.link-paginas{
+.link-paginas {
     transition: ease-in-out 0.4s;
 }
 
 
-.link-paginas:hover{
+.link-paginas:hover {
     box-shadow: 1px 1px 10px#667385;
-    transform:scale(1.1);
+    transform: scale(1.1);
     border-radius: 20px;
 }
 
-.produto>img{
+.produto>img {
     height: 200px;
     object-fit: cover;
     max-width: 100%;
@@ -167,20 +170,20 @@ main{
 }
 
 
-.produtos{
+.produtos {
     display: flex;
     flex-wrap: wrap;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.produtos>div{
+.produtos>div {
     flex: 1 1 700px;
     justify-content: center;
     text-align: center;
 
 }
 
-.produto{
+.produto {
     box-shadow: 1px 1px 10px rgb(75, 73, 73);
     margin: 10px;
     background-color: #ffffff;
@@ -189,11 +192,11 @@ main{
     padding: 20px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    
+
 }
 
 
-span>button{
+span>button {
     box-shadow: 1px 1px 10px rgb(78, 75, 75);
     border-radius: 10px;
     padding: 4px;
@@ -207,21 +210,22 @@ span>button{
     transition: ease-in-out 0.3s;
 }
 
-.produto>span{
-    margin:10px 10px;
+.produto>span {
+    margin: 10px 10px;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-button>img{
+button>img {
     height: 20px;
     width: 20px;
 }
-button:active{
+
+button:active {
     transform: scale(1.05);
-  
+
     outline: none;
 
 }
@@ -232,7 +236,8 @@ button:active{
 
 
 
-.produtos-pizzas>img,.bebida-produto>img{
+.produtos-pizzas>img,
+.bebida-produto>img {
     height: 200px;
     object-fit: cover;
     max-width: 100%;
@@ -242,14 +247,16 @@ button:active{
 }
 
 
-.Pizzas-container,.bebidas{
+.Pizzas-container,
+.bebidas {
     display: flex;
     flex-wrap: wrap;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
-.Pizzas-container>div,.bebidas>div{
+.Pizzas-container>div,
+.bebidas>div {
     flex: 1 1 700px;
     justify-content: center;
     text-align: center;
@@ -257,7 +264,8 @@ button:active{
 }
 
 
-.produtos-pizzas,.bebida-produto{
+.produtos-pizzas,
+.bebida-produto {
     box-shadow: 1px 1px 10px rgb(75, 73, 73);
     margin: 10px;
     background-color: #ffffff;
@@ -266,24 +274,27 @@ button:active{
     padding: 20px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    
+
 }
 
-.produtos-pizzas>span,.bebida-produto>span{
-    margin:10px 10px;
+.produtos-pizzas>span,
+.bebida-produto>span {
+    margin: 10px 10px;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.produtos-pizzas>button>img,.bebida-produto>button>img{
+.produtos-pizzas>button>img,
+.bebida-produto>button>img {
     height: 20px;
     width: 20px;
 }
 
 
-.produtos-pizzas>button:active,.bebidas>button:active{
+.produtos-pizzas>button:active,
+.bebidas>button:active {
     transform: scale(1.05);
     background-color: #be0f0f;
     outline: none;
