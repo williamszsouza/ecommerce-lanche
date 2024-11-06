@@ -12,8 +12,7 @@
 }
 
 main{
-    background-image: url(/imgs/fundo.jpg);
-
+    background-image:url(/imgs/fundo.jpg);
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -38,7 +37,7 @@ main{
     gap: 90px;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.394);
+    background-color: rgba(0, 0, 0, 0.529);
 }
 
 
