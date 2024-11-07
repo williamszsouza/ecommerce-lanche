@@ -18,11 +18,14 @@
                     <div class="inputs">
                         <div class="email-form">
                            
-                            <input type="email" autocomplete="email" name="Email" id="email" placeholder="E-mail">
+                            <input type="text" autocomplete="email" name="Email" id="email" placeholder="E-mail" class="input-required" oninput="EmailValidate()" required>
+                            <span class="span-required">Digite um email valido</span>
                         </div>
                            <div class="senha-form">
                            
-                            <input type="password"  autocomplete="current-password" id="senha" placeholder="Senha">
+                            <input type="password"  autocomplete="current-password" id="senha" placeholder="Senha" class="input-required" required oninput="PasswordValidate()">
+                            <span class="span-required">senha deve ter no minimo 8 caracteres</span>
+                            
                            </div>
                            <button type="submit">Enviar</button>
                            <a href="">Esqueceu a senha? </a>

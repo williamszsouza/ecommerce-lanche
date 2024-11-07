@@ -7,7 +7,7 @@
 *{
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
+   
     font-family: "Inter",sans-serif;
 }
 
@@ -43,9 +43,10 @@ main{
 
 
 .form{
+    text-transform: capitalize;
     position: relative;
     backdrop-filter: blur(50%);
-    background-color:rgb(213, 57, 30);
+    background-color:rgb(27, 25, 25);
     width: 250px;
     height: 250px;
     display: flex;
@@ -77,12 +78,25 @@ main{
 .email-form{
     gap: 10px;
     display: flex;
+    flex-direction: column;
 }
 
 .senha-form{
+    flex-direction: column;
     gap: 10px;
     display: flex;
 }
+
+.email-form>span,.senha-form>span{
+    display: none;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    text-wrap: nowrap;
+    font-size: smaller;
+    color: red;
+
+}
+
 
 label{
     color: white;
@@ -90,12 +104,16 @@ label{
 
 
 .email-form>input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:white;
     border: none;
     outline: none;
     border-radius: 5px;
     padding: 4px;
    transition: all ease-in-out 0.3s;
+   width: 200px;
 }
 
 .senha-form>input{
@@ -105,18 +123,21 @@ label{
     outline: none;
     transition: all ease-in-out 0.3s;
     padding: 4px;
+    width: 200px;
 }
 
 
 
 .senha-form>input:focus{
     outline: none;
+    border: 3px solid rgb(93,17,93);
     transform: scale(1.04);
     box-shadow: 1px 1px 5px black;
 }
 
 .email-form>input:focus{
     outline: none;
+    border: 3px solid rgb(93, 17, 93);
     transform: scale(1.04);
     box-shadow: 1px 1px 5px black;
  
@@ -144,7 +165,7 @@ button:hover{
 }
 
 button:active{
-    background-color: rgb(229, 224, 224);
+    background-color: rgb(202, 197, 197);
     outline: none;
 }
 
